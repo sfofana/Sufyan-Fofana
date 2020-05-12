@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace JS.Fofana_Bank_V2._3_Backend.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/v1")]
     [ApiController]
     public class UserController : ControllerBase
