@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sufya\\Documents\\Repository\\JS.Fofana-Bank-V2.3\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj": {}
+    "C:\\Users\\sufya\\Documents\\Repository\\C#DevPipe\\Sufyan-Fofana\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sufya\\Documents\\Repository\\JS.Fofana-Bank-V2.3\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj": {
+    "C:\\Users\\sufya\\Documents\\Repository\\C#DevPipe\\Sufyan-Fofana\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sufya\\Documents\\Repository\\JS.Fofana-Bank-V2.3\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj",
+        "projectUniqueName": "C:\\Users\\sufya\\Documents\\Repository\\C#DevPipe\\Sufyan-Fofana\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj",
         "projectName": "JS.Fofana-Bank-V2.3-Backend",
-        "projectPath": "C:\\Users\\sufya\\Documents\\Repository\\JS.Fofana-Bank-V2.3\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj",
+        "projectPath": "C:\\Users\\sufya\\Documents\\Repository\\C#DevPipe\\Sufyan-Fofana\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend.csproj",
         "packagesPath": "C:\\Users\\sufya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sufya\\Documents\\Repository\\JS.Fofana-Bank-V2.3\\JS.Fofana-Bank-V2.3-Backend\\JS.Fofana-Bank-V2.3-Backend\\obj\\",
+        "outputPath": "C:\\Users\\sufya\\Documents\\Repository\\C#DevPipe\\Sufyan-Fofana\\JS.Fofana-Bank-V2.3-Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sufya\\AppData\\Roaming\\NuGet\\NuGet.Config",
