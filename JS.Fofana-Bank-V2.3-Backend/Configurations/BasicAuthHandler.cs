@@ -14,10 +14,8 @@ namespace JS.Fofana_Bank_V2._3_Backend.Configurations
 {
     public class BasicAuthHandler : AuthenticationHandler<AuthenticationSchemeOptions>
     {
-        string username = "sfofana";
-        string password = "UofH2011";
-        string user;
-        string pass;
+        string username;
+        string password;
         private readonly IOptions<Settings> settings;
         public BasicAuthHandler(
             IOptionsMonitor<AuthenticationSchemeOptions> options,
@@ -40,14 +38,14 @@ namespace JS.Fofana_Bank_V2._3_Backend.Configurations
                 var authHeader = AuthenticationHeaderValue.Parse(Request.Headers["Authorization"]);
                 var credentialBytes = Convert.FromBase64String(authHeader.Parameter);
                 string[] credentials = Encoding.UTF8.GetString(credentialBytes).Split(":");
-                user = credentials[0];
-                pass = credentials[1];
+                username = credentials[0];
+                password = credentials[1];
 
-                if (user != username || password != password)
+                if (username != settings.Value.username || password != settings.Value.password)
                     return AuthenticateResult.Fail("Invalid Credentials");
                 else
                 {
-                    var claims = new[] { new Claim(ClaimTypes.Name, user) };
+                    var claims = new[] { new Claim(ClaimTypes.Name, username) };
                     var identity = new ClaimsIdentity(claims, Scheme.Name);
                     var principal = new ClaimsPrincipal(identity);
                     var ticket = new AuthenticationTicket(principal, Scheme.Name);
